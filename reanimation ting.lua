@@ -1,5 +1,8 @@
 --_G.Fling = true
 warn("Reanimation loaded! Using R6, path is LocalPlayer.Character.Free")
+    game.StarterGui:SetCore("ChatMakeSystemMessage", {
+        Text = "[pro reanimation] loaded read the console for more pro"
+})
 if not _G.Velocity then _G.Velocity = Vector3.new(30,0,0) end
 
 -- adding net so we dont lose the body

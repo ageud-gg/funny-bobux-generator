@@ -1,8 +1,7 @@
---- Did actually rework heavily away from original neptunian, and the non-rework neptunian. --NoobyGames12
---- Was supposed to be for the770zone, or VengefulProgram.
---DONT SKID OR GAY (very autistic)
+--- the free bobux loadlib generator 2021 free no hacks
+-- skid = gay
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/loadlib.lua"))()
--- its open source so you can always change the link.
+
 
 warn'Neptune/Neptunian V'
 warn[[Absolutely.

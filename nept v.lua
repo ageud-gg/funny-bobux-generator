@@ -6739,7 +6739,7 @@ waveEff(6,"Add","Out",root.CFrame*CFrame.new(0,0,0)*CFrame.Angles(math.rad(90),m
 for i = 0, 9 do
 slash(math.random(10,25)/10,5,true,"Round","Add","Out",root.CFrame*CFrame.new(0,0,math.random(-30,15))*CFrame.Angles(math.rad(90 + math.random(-10,10)),math.rad(math.random(-360,360)),math.rad(math.random(-10,10))),vt(0.1,0.01,0.1),math.random(75,250)/250,BrickColor.new("White"))
 end
-CFuncs["Sound"].Create("rbxassetid://430315987", root, 1.5, 1)
+CFuncs["Sound"].Create("rbxassetid://0", root, 1.5, 1)
 CFuncs["Sound"].Create("rbxassetid://1295446488", root, 3, 1)
 for x = 0, 14 do
 CFuncs["Sound"].Create("rbxassetid://200633281", rarmor, 1, 1.05)
@@ -7069,7 +7069,7 @@ sphere2(5,"Add",hitb.CFrame,vt(2,2,2),-0.02,-0.02,4,BrickColor.new("Cyan"),Brick
 for i = 0, 24 do
 slash(math.random(20,100)/10,5,true,"Round","Add","Out",hitb.CFrame*CFrame.new(0,0,math.random(-60,60))*CFrame.Angles(math.rad(90),0,0),vt(0.01,0.01,0.01),math.random(10,100)/1000,BrickColor.new("White"))
 end
-CFuncs["Sound"].Create("rbxassetid://313205954", root, 4,1)
+CFuncs["Sound"].Create("rbxassetid://0", root, 4,1)
 CFuncs["Sound"].Create("rbxassetid://1368637781", rarmor, 4,1)
 CFuncs["Sound"].Create("rbxassetid://763718160", rarmor, 5, 1.1)
 CFuncs["Sound"].Create("rbxassetid://782353443", rarmor, 6, 1)
@@ -7116,7 +7116,7 @@ Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(4),math.rad(0),math.rad(
 RW.C0=clerp(RW.C0,cf(1.45,0.5,0.1)*angles(math.rad(10),math.rad(0),math.rad(40)),.4)
 LW.C0=clerp(LW.C0,cf(-1.45,0.5,0.1)*angles(math.rad(10),math.rad(0),math.rad(-40)),.4)
 end
-CFuncs["Sound"].Create("rbxassetid://477843807", root, 7, 1.05)
+CFuncs["Sound"].Create("rbxassetid://0", root, 7, 1.05)
 local lat1 = Instance.new("Attachment",larm)
 lat1.Position = Vector3.new(1,-1,0.5)
 local lat2 = Instance.new("Attachment",larm)

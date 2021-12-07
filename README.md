@@ -1,5 +1,6 @@
 # funny-bobux-generator
 
+key is: "tempkey2021"
 
 gui loadstring:
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/main.lua"))()

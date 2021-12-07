@@ -6,7 +6,7 @@ local UI = Material.Load({
      Style = 3,
      SizeX = 350,
      SizeY = 250,
-     Theme = "Light"
+     Theme = "Dark"
 })
 
 

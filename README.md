@@ -2,7 +2,7 @@
 
 
 gui loadstring:
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/reanim%20gui.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/main.lua"))()
 
 
 this is a joke it isnt an actual bobux generator

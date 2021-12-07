@@ -3,8 +3,10 @@
 key is: "tempkey2021"
 
 gui loadstring:
+```lua
+--the key is "tempkey2021"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/main.lua"))()
-
+```
 
 this is a joke it isnt an actual bobux generator
 

@@ -8,12 +8,12 @@ gui loadstring:
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/main.lua"))()
 ```
 
-this is a joke it isnt an actual bobux generator
+if that doesnt work do:
 
-this is neptunian v ting for pro hecker men
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/reanim%20gui.lua"))()
+```
 
-how to obfuscate
+and it should work
 
-works 1949!1111111
-
-also u need pro developer keyboard ting (its promocode)
+updated on 6/24/2022 MM/DD/YYYY

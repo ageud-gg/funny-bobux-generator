@@ -1,12 +1,3 @@
---[[ 
-  _    _ _   _ ______ _____ _   _ _____  _____ _    _ ______ _____  
- | |  | | \ | |  ____|_   _| \ | |_   _|/ ____| |  | |  ____|  __ \ 
- | |  | |  \| | |__    | | |  \| | | | | (___ | |__| | |__  | |  | |
- | |  | | . ` |  __|   | | | . ` | | |  \___ \|  __  |  __| | |  | |
- | |__| | |\  | |     _| |_| |\  |_| |_ ____) | |  | | |____| |__| |
-  \____/|_| \_|_|    |_____|_| \_|_____|_____/|_|  |_|______|_____/ 
-                                                                    --]]
-
 -------------------
 --Brutal Overlord--
 ---------------------------------
@@ -19,7 +10,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-
 wait(1/60)
 Effects = { }
 local Player = game:service'Players'.localPlayer
-local chara = Player.Character.CortexAnimation
+local chara = Player.Character.Free
 local Humanoid = chara:FindFirstChildOfClass("Humanoid")
 local Mouse = Player:GetMouse()
 local LeftArm = chara["Left Arm"]

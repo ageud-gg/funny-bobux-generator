@@ -103,8 +103,6 @@ _G.HighlightFlingBlock = true
 _G.FlingBlockPosition = "FPart"
 _G.HighlightFlingBlockColor = Color3.fromRGB(255,0,0)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GelatekWasTaken/Reanimation.lua/main/Main/Main.lua"))()
-wait(1)
 
 mouse.KeyDown:connect(function(key)
     if key == "e" then

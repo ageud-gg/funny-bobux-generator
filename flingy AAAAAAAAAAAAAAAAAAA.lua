@@ -19,7 +19,7 @@ end
 end
 
 function rmesh(HatName)
-for _,mesh in next, workspace[game.Players.LocalPlayer.Name][HatName]:GetDescendants() do
+for _,mesh in next, workspace[game.Players.LocalPlayer.Name][DessertPlate]:GetDescendants() do
 if mesh:IsA("Mesh") or mesh:IsA("SpecialMesh") then
 mesh:Remove()
 end

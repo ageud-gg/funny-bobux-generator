@@ -1,6 +1,5 @@
 # funny-bobux-generator
 
-key is: "tempkey2021"
 
 new gui loadstring:
 ```lua

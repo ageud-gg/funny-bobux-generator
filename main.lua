@@ -45,6 +45,13 @@ local Button = FE:CreateButton({
 })
 
 local Button = FE:CreateButton({
+	Name = "Gale Fighter (requires Reanimation)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/Gale%20fighter"))()
+	end,
+})
+
+local Button = FE:CreateButton({
 	Name = "Brutal overlord (requires Reanim)",
 	Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/BrutalOverload.lua"))()

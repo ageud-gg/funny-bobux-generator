@@ -6479,6 +6479,7 @@ local dashing = false
 local floatmode = false
 local OWS = hum.WalkSpeed
 local equipped = false
+Instance.new("ForceField",char).Visible = true
 Humanoid.Animator.Parent = nil
 ------------------
 function equip()

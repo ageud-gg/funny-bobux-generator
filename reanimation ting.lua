@@ -68,19 +68,28 @@ game:WaitForChild("Run Service").Heartbeat:Connect(function()
         end
 		_G.Fling = true
 	 	_G.BigTorso = false
+		_G.Godmode = true
 		RightArm.Velocity = _G.Velocity
         RightLeg.Velocity =_G.Velocity
         LeftArm.Velocity = _G.Velocity
         LeftLeg.Velocity = _G.Velocity
+                    if _G.BigTorso == true then
+            Torso.Size = Vector3.new(6,6,6)
+            Torso.Parent.Free:FindFirstChild("Torso").Size = Vector3.new(6,6,6)
+            Torso.Velocity = Vector3.new(9999,9999,9999)
+            else
+            Torso.Size = Vector3.new(2,2,1)
+                end
+
                     if _G.Fling == true then
             Torso.Velocity = Vector3.new(9999,9999,9999)
             else
                 Torso.Velocity = Vector3.new(-28.05,1,1)
                 end
-		    if _G.BigTorso == true then --testing dont worry about this
-            --part.Size = Vector3.new(4,4,4)
-            else
-                --part.Size = Vector3.new(2,2,1)
+		    
+                    if _G.Godmode == true then
+                Character:FindFirstChild("Humanoid").Health = 100
+                wait(1)
                 end
         HumanoidRootPart.Velocity = _G.Velocity
         for _, Accessories in pairs(Character:GetDescendants()) do

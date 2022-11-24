@@ -34,7 +34,7 @@ local Reanimated = true
 
 if Humanoid.RigType == Enum.HumanoidRigType.R15 then
     game.StarterGui:SetCore("ChatMakeSystemMessage", {
-        Text = "[Free Nept] You are on R15! Please use the R15 Reanimation instead.",
+        Text = "[Reanimation] You are on R15! Please use the R15 Reanimation instead.",
         Color = Color3.fromRGB(255, 10, 70),
         TextSize = 18,
         Font = Enum.Font.Ubuntu

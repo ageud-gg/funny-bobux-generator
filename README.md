@@ -6,7 +6,7 @@ new gui loadstring:
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/main.lua"))()
 ```
 
-if that doesnt work do:
+old gui:
 
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/reanim%20gui.lua"))()

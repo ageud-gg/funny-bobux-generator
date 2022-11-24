@@ -77,10 +77,10 @@ game:WaitForChild("Run Service").Heartbeat:Connect(function()
             else
                 Torso.Velocity = Vector3.new(-28.05,1,1)
                 end
-		    if _G.Fling == true then
-            part.Size = Vector3.new(4,4,4)
+		    if _G.BigTorso == true then --testing dont worry about this
+            --part.Size = Vector3.new(4,4,4)
             else
-                part.Size = Vector3.new(2,2,1)
+                --part.Size = Vector3.new(2,2,1)
                 end
         HumanoidRootPart.Velocity = _G.Velocity
         for _, Accessories in pairs(Character:GetDescendants()) do

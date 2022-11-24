@@ -42,7 +42,7 @@ if Humanoid.RigType == Enum.HumanoidRigType.R15 then
 return end
 if game.Players.LocalPlayer.Character:FindFirstChild("Free") or workspace:FindFirstChild("Free") then
     game.StarterGui:SetCore("ChatMakeSystemMessage", {
-        Text = "[Free] You are already reanimated! Please reset to unreanimate.",
+        Text = "[Reanimation] You are already reanimated! Please reset to unreanimate.",
         Color = Color3.fromRGB(255, 10, 70),
         TextSize = 18,
         Font = Enum.Font.Ubuntu
@@ -67,6 +67,7 @@ game:WaitForChild("Run Service").Heartbeat:Connect(function()
             Character.Torso.CFrame=Character.Free.Torso.CFrame
         end
 		_G.Fling = true
+	 	_G.BigTorso = false
 		RightArm.Velocity = _G.Velocity
         RightLeg.Velocity =_G.Velocity
         LeftArm.Velocity = _G.Velocity
@@ -75,6 +76,11 @@ game:WaitForChild("Run Service").Heartbeat:Connect(function()
             Torso.Velocity = Vector3.new(9999,9999,9999)
             else
                 Torso.Velocity = Vector3.new(-28.05,1,1)
+                end
+		    if _G.Fling == true then
+            part.Size = Vector3.new(4,4,4)
+            else
+                part.Size = Vector3.new(2,2,1)
                 end
         HumanoidRootPart.Velocity = _G.Velocity
         for _, Accessories in pairs(Character:GetDescendants()) do
@@ -88,7 +94,7 @@ end)
 
 local CopyCharacter = Character:Clone()
 CopyCharacter.Parent = Character 
-CopyCharacter.Name = "Free" -- you can always change name.
+CopyCharacter.Name = "Free" 
 
 for k,l in pairs(Character.Free:GetDescendants()) do 
     if l:IsA("Part") or l:IsA("Decal") then

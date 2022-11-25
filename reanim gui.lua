@@ -76,6 +76,20 @@ SPage.Button({
     }
 })
 
+SPage.Button({
+    Text = "Gale fighter (read info)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/Gale%20fighter"))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "Requires reanimation on"            
+            })
+        end,
+    }
+})
+
 local APage = UI.New({
     Title = "All in 1"
 })
@@ -134,6 +148,21 @@ APage.Button({
         end,
     }
 })
+
+APage.Button({
+    Text = "Gale fighter (read info)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ageud-gg/funny-bobux-generator/main/Gale%20fighter"))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "Requires reanimation on"            
+            })
+        end,
+    }
+})
+
 
 
 

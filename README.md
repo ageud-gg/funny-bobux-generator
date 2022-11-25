@@ -3,6 +3,7 @@ Update notes:
 - New FE script "Gale Fighter"
 - Net bypass button for big servers
 - New gui
+
 **NOTE: THE NEW GUI WILL PROBABLY NOT WORK FOR MOBILE**
 
 new gui loadstring:
